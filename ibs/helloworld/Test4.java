@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите три целых числа(x,y,z): \nx = ");
+        System.out.println("Введите три числа(x,y,z): \nx = ");
         double x = in.nextDouble();
         System.out.println("y = ");
         double y = in.nextDouble();
