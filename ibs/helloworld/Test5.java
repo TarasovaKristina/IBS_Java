@@ -21,6 +21,6 @@ public class Test5 {
                 case "/": ans = x / y;
                     break;
             }
-            System.out.println("Средне арифметическое число введенных чисел: " + ans);
+            System.out.println("Полученное значение: " + ans);
         }
     }
