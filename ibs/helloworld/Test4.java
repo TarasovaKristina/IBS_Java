@@ -2,7 +2,7 @@ package ibs.helloworld;
 
 import java.util.Scanner;
 
-public class Test4 {
+public class  Test4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите три числа(x,y,z): \nx = ");
@@ -16,7 +16,5 @@ public class Test4 {
         double number = Math.floor(average / 2);
         if (number > 3)
             System.out.println("Программа выполнена корректно");
-        }
     }
-
-
+}
