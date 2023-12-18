@@ -8,19 +8,18 @@ public class Test9 {
         Scanner in = new Scanner(System.in);
         System.out.println("Задайте размер массиву: ");
         int size = in.nextInt();
-        double doubleArray[] = new double[size];
+        double array[] = new double[size];
         double sum = 0;
-        int i = 0;
         System.out.println("Заполните массив вещественными числами ");
-        for (i = 0; i < doubleArray.length; i++) {
-            doubleArray[i] = in.nextDouble();
-            sum += doubleArray[i];
+        for ( int i = 0; i < array.length; i++) {
+            array[i] = in.nextDouble();
+            sum += array[i];
         }
-            double average = sum / doubleArray.length;
-        for (i = 0; i < doubleArray.length; i++) {
-            doubleArray[i] = doubleArray[i] * average;
+            double average = sum / array.length;
+        for ( int i = 0; i < array.length; i++) {
+            array[i] = array[i] * average;
         }
-        System.out.println("Элемент массива * на среднее арифметическое элементов массива = " + (Arrays.toString(doubleArray)));
+        System.out.println("Элемент массива * на среднее арифметическое элементов массива = " + (Arrays.toString(array)));
         }
 
     }
