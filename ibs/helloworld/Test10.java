@@ -22,11 +22,6 @@ public class Test10 {
         for (int i = 0; i < matrix[0].length; i++) {
             matrix[0][i] = matrix[0][i] * 3;
             System.out.print(matrix[0][i] + " ");
-            }
         }
     }
-
-
-
-
-
+}
