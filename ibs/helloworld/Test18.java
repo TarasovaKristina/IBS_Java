@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Test18 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Отгадайте загадку. Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает");
+        System.out.println("Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает");
 
         String answer;
         boolean correctAnswer;
